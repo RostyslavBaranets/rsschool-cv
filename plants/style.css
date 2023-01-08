@@ -1,0 +1,447 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inika-700 - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    background-color: #EDF2EC;
+}
+
+.wrapper{
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.btn{
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.btn:hover,
+.btn:focus{
+    color: #fff;
+    background-color: #E06733;
+}
+
+.btn:active{
+    opacity: .75;
+}
+
+/*header styles start*/
+
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 0;
+}
+
+.header-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-item{
+    margin-right: 46px;
+}
+
+.header-item:last-child{
+    margin-right: 0;
+}
+
+.header-link{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+    text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus{
+    opacity: .75;
+}
+
+.header-link:active{
+    font-weight: 700;
+    color: #E06733;
+}
+
+.header-link-active{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: #E06733;
+    text-decoration: none;
+}
+
+.header-link-active:hover,
+.header-link-active:focus{
+    opacity: .75;
+}
+
+/*header styles end*/
+
+/*welcome styles start*/
+
+.welcome{
+    padding: 62px 0;
+}
+
+.welcome-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.welcome-content{
+    max-width: 549px;
+    padding-top: 36px;
+}
+
+.welcome-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 42px;
+}
+
+.welcome-title-color{
+    color: #499A18;
+}
+
+.welcome-subtitle{
+    padding-bottom: 48px;
+}
+
+.welcome-btn{
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    padding: 14px 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.welcome-btn:hover,
+.welcome-btn:focus{
+    color: #fff;
+    background-color: #E06733;
+}
+
+.welcome-btn:active{
+    opacity: .75;
+}
+
+/*welcome styles end*/
+
+/*about styles start*/
+
+.about{
+    padding: 93px 0;
+    background-color: #fff;
+}
+
+.about-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content{
+    max-width: 605px;
+    padding-top: 68px;
+}
+
+.about-title{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    max-width: 463px;
+    padding-bottom: 40px;
+}
+/*about styles end*/
+
+/*service styles start*/
+
+.service{
+    padding-top: 40px;
+}
+
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1007px;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.services-title{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    max-width: 306px;
+}
+
+.services-btn{
+    margin-right: 38px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 66px;
+}
+
+.service-item{
+   margin-bottom: 55px;
+}
+
+.service-content{
+    border: 1px solid #E3E1D5;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.service-title{
+    padding: 10px 0;
+    font-weight: 700;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.service-subtitle{
+    padding-bottom: 36px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+/*service styles end*/
+
+/*prices styles start*/
+
+.prices{
+    background-color: #fff;
+}
+
+.prices-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 115px;
+}
+
+.prices-help{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.prices-title2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+    max-width: 452px;
+    padding-bottom: 38px;
+}
+
+.prices-btn{
+    margin-bottom: 39px;
+}
+
+.prices-title1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    padding-bottom: 60px;
+}
+
+.prices-accordion{
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    max-width: 332px;
+}
+
+.prices-items{
+    width: 250px;
+    margin: 34px 41px;
+}
+
+.prices-item{
+    margin-bottom: 32px;
+    border-radius: 20px;
+    background-color: #EDF2EC;
+}
+
+.prices-item:last-child{
+    margin-bottom: 0;
+}
+
+.prices-item-header{
+    padding: 16px 40px;
+    background: transparent url(./img/accordion-btn.svg) no-repeat right 40px center;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*contact styles start*/
+
+.contact-title{
+    position: relative;
+    top: 50px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    text-align: center;
+}
+
+.contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-accordion{
+    padding-top: 95px;
+    width: 450px;
+}
+
+.contact-item{
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-item-header{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    cursor: pointer;
+    background: transparent url(./img/accordion-btn2.svg) no-repeat right 35px center; ;
+}
+
+/*contact styles end*/
+
+/*footer styles start*/
+
+footer{
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.footer-data{
+    padding: 40px 0;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-item{
+    padding-right: 20px;
+}
+
+.footer-item:last-child{
+    padding-right: 0;
+}
+/*footer styles end*/
